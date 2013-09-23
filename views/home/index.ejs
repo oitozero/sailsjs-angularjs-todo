@@ -10,8 +10,8 @@
                 </label>
             </li>
         </ul>
-        <form class="form-inline">
-            <input id="todo-title" type="text" ng-model="newTodoTitle" />
+        <form name="myForm" class="form-inline">
+            <input id="todo-title" type="text" ng-model="newTodoTitle" ng-required />
             <button id="add-btn" class="btn btn-success" ng-click="addTodo(newTodoTitle)">Add</button>
         </form>
         <p>
