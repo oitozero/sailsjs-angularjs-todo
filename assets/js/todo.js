@@ -10,8 +10,8 @@ todoApp.controller('TodoController', function($scope, $http) {
       $scope.loaded = true;
       $scope.todos = todos;
     }).error(function(err) {
+      // Alert if there's an error
       alert(err);
-      console.log(JSON.stringify(err));
     });
 
   $scope.addTodo = function(title) {
