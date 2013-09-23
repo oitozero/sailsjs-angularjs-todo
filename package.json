@@ -15,7 +15,7 @@
         "debug": "node debug app.js"
     },
     "main": "app.js",
-    "repository": "MIT License",
+    "repository": "https://github.com/oitozero/sailsjs-angularjs-todo",
     "author": "oitozero",
-    "license": ""
+    "license": "MIT License"
 }
