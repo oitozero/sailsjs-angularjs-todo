@@ -17,7 +17,6 @@ AngularJS lets you write client-side web applications as if you had a smarter br
 
 ## How to
 
-### node.js
 ```
 $ git clone https://github.com/oitozero/sailsjs-angularjs-todo
 $ cd sailsjs-angularjs-todo
